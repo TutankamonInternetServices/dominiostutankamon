@@ -1,0 +1,40 @@
+<html>
+<head>
+  <title>Inicio | Dominios Tutankamon S.A.</title>
+  <link href="../main.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="3116f3e5a9fb13fea803d55da2ba6f43.png">
+</head>
+<body>
+  <div style=”padding:12px;background-color:#ffa420;line-height:1.4;”>
+  <a href="compromiso.html"> Vea como estamos actuando en esta crisis del COVID-19. > </a>
+  </div>
+   
+  <script>
+    //document.write("En medio de esta crisis, Dominios Tutankamon ofrece Dominio + Sitio Web. | Consulte aquí: contacto@tutankamon.cf");
+  </script>
+  <h1>DOMINIOS TUTANKAMON</h1>
+  <h2>Obtenga su dominio ahora.</h2>
+  <h3>Dominios a partir de 550 SuriCoins/mes.</h3>
+  <h3>----------------</h3>
+  <h4>Dominios Tutankamon dispone de estos dominios:</h4>
+  <h5>.tk, .cf, .ml, .gq, .ga</h5>
+  <h3>----------------</h3>
+  <h3>¿Desea obtener un dominio? Envíe un correo a:</h3>
+  <h4>dominios@tutankamon.cf</h4>
+  
+  <h3>Contacto (para dudas o sugerencias):</h3>
+  <h4>contacto@tutankamon.cf</h4>
+
+  <h3>Reclamos (Denuncias o Quejas):</h3>
+  <h4>reclamos@tutankamon.cf</h4>
+  
+  <h5>*Dominios sujetos a disponibilidad. **Duración de cada dominio: 12 meses. ***Si no cumple con el pago, se le cortará el servicio. ****Los precios incluyen IVA.</h5>
+
+  
+  <div style=”padding:12px;background-color:#ffa420;line-height:1.4;”>
+  <a href="contacto.html"> CONTACTO > </a>
+  </div>  
+ 
+ </body>
+</html>
