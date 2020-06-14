@@ -1,0 +1,29 @@
+Sistema de advertencias para sitios fuera de Dominios Tutankamon, Tutankamon Internet Services o afiliados.
+Ruta:
+dominiostutankamon.ml/advert/sitiodeavertencia
+
+Los anuncios se someten a una prueba de seguridad para no pasar por este proceso.
+Si el sitio web del anunciante (anclado al anuncio en nuestra web) cuenta con cifrado HTTPS (https://)
+(https://ejemplo.com), se hace un escaneo y revisión para evitar problemas de seguridad.
+
+Si el sitio web del anunciante (anclado al anuncio en nuestra web) NO cuenta con cifrado HTTPS (https://)
+significa que no cuenta con cifrado y la dirección sería así:
+http://ejemplo.com
+Podría aparecer una etiqueta que diría: "No es seguro" o algo similar.
+Un ejemplo:
+(i) No es seguro | ejemplo.com
+- O -
+(i) No es seguro | http://ejemplo.com
+
+También podría haber un certificado de seguridad inválido, expirado o un error.
+Mostraría un mensaje similar a:
+    _
+   / \
+  / | \
+ /  |  \
+/   0   \
+---------
+
+Advertencia
+Este sitio web podría no ser seguro
+[entrar a "ejemplo.com" de todas formas]
