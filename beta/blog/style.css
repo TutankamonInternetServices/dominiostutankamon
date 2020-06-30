@@ -1,24 +1,29 @@
-h1.blog-head {
+.blog-head {
   color: #464646;
   font-family: 'Lato', sans-serif;
 }
 
-h4.blog-head-separator {
+.blog-head-separator {
   color: #464646;
   font-family: 'Lato', sans-serif;
 }
 
-h1.blog-title {
+.blog-title {
   color: #5e5e5e;
   font-family: 'Lato', sans-serif;
 }
 
-h2.blog-content {
+.blog-content {
   color: #787878;
   font-family: sans-serif;
 }
 
-a.href-text {
+.href-text {
   color: #2796ff;
+  font-family: sans-serif;
+}
+
+.date-and-hour-credits {
+  color: #d9d9d9;
   font-family: sans-serif;
 }
