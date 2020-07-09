@@ -24,11 +24,9 @@
            <br>
          </span></td> 
          <td><span class="cnt">
+           <br>
            <input value="Entrar" target="_parent" onclick="Login()" type="button" class="boton"/> 
          </span></td> 
-       </tr> 
-       <tr> 
-         <th scope="row"><input type="reset" name="Borrar" id="Borrar" value="Reset" class="boton" /></th> 
        </tr> 
      </table> 
   </form> 
@@ -45,7 +43,7 @@ if (usuario=="USUARIO2" && password=="CONTRASEÑA2") {
 window.location="TU_PAGINA_WEB.HTML"; 
 } 
 if (usuario=="" && password=="") { 
-window.location="errorpopup.html"; 
+document.write('Ingresa tus datos!'); 
 } 
 } 
 </script> 
