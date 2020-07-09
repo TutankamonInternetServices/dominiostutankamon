@@ -23,10 +23,9 @@
            <input name="password" type="password" class="Input" value="" size="20" />
            <br>
          </span></td> 
-         <td><span class="cnt">
-           <br><br><br>
-           <input value="Entrar" target="_parent" onclick="Login()" type="button" class="boton"/> 
-         </span></td> 
+         <span class="cnt">
+          <input value="Entrar" target="_parent" onclick="Login()" type="button" class="boton"/> 
+         </span>
        </tr> 
      </table> 
   </form> 
@@ -43,7 +42,8 @@ if (usuario=="USUARIO2" && password=="CONTRASEÑA2") {
 window.location="TU_PAGINA_WEB.HTML"; 
 } 
 if (usuario=="" && password=="") { 
-document.write('Ingresa tus datos!'); 
+document.write('Ingresa tus datos!');
+document.title = 'Error';
 } 
 } 
 </script> 
