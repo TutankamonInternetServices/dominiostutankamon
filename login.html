@@ -46,10 +46,11 @@ var done=0;
 var usuario=document.login.usuario.value; 
 var password=document.login.password.value; 
 if (usuario=="pabdani" && password=="pbd") { 
-window.location="TU_PAGINA_WEB.HTML"; 
+window.location="index.html";
+document.cookie = "username=pabdani";
 } 
 if (usuario=="USUARIO2" && password=="CONTRASEÑA2") { 
-window.location="TU_PAGINA_WEB.HTML"; 
+window.location="TU_PAGINA_WEB.HTML";
 } 
 if (usuario=="" && password=="") { 
 document.write('ERROR: ');
