@@ -65,14 +65,14 @@
   <p id="loginstatus">
    
   <script>
-  var username = getCookie("username");
-  if (username != "") {
-   document.write("Bienvenido " + username);
+  var username_var = getCookie("username");
+  if (username_var != "") {
+   document.write("Bienvenido " + username_var);
   } else {
     document.write("Entra a dominiostutankamon.ml/login para iniciar sesión.");
    }
   
-  var text = document.createTextNode("Bienvenido, " + username);                                    
+  var text = document.createTextNode("Bienvenido, " + username_var);                                    
   document.getElementById("loginstatus").appendChild(text);                             
   </script>
   
