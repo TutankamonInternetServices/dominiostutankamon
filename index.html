@@ -67,12 +67,12 @@
   <script>
   var username_var = getCookie("username");
   if (username_var != "") {
-   document.write("Bienvenido " + username_var);
+   alert("Bienvenido " + username_var + ". Entra a: dominiostutankamon.ml/cuenta para conocer tu Cuenta Tutankamon);
   } else {
     document.write("Entra a dominiostutankamon.ml/login para iniciar sesión.");
    }
   
-  var text = document.createTextNode("Bienvenido, " + username_var);                                    
+  //var text = document.createTextNode("Bienvenido, " + username_var);                                    
   document.getElementById("loginstatus").appendChild(text);                             
   </script>
   
