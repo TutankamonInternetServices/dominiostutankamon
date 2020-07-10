@@ -63,17 +63,13 @@
   </div>-->
  
   <script>
-  function checkCookie() {
   var username = getCookie("username");
   if (username != "") {
    document.write("Bienvenido " + username);
-  } 
-   else {
+  } else {
     document.write("Entra a dominiostutankamon.ml/login para iniciar sesión.")
    }
-  }
- 
-  checkCookie()
+  
   <p id="loginstatus"> <p>           
   var text = document.createTextNode("Bienvenido, " + username);                                    
   document.getElementById("loginstatus").appendChild(text);                             
