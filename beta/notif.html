@@ -1,0 +1,13 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/push.js/0.0.11/push.min.js">
+Push.Permission.request();
+Push.create('Dominios Tutankamon', {
+    body: 'Tu dominio será cancelado en breve. Para evitar esto, envía un correo a: contacto@tutankamon.cf',
+    icon: 'icon.png',
+    timeout: 8000,               // Timeout before notification closes automatically.
+    vibrate: [100, 100, 100],    // An array of vibration pulses for mobile devices.
+    onClick: function() {
+        // Callback for when the notification is clicked. 
+        console.log(this);
+    }  
+});
+</script>
